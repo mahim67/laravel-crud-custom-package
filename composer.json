@@ -1,0 +1,29 @@
+{
+    "name": "mahim/bondstein-tech-test",
+    "description": "Bondstein - Technical Coding Challenge (Package CRUD Operation)",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Mohiuddin",
+            "email": "kmahim489@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mahim\\Bondstein\\": "src/"
+        }
+    },
+    "extra": {
+        "copyright": "www.dev-mahim.vercel.app",
+        "laravel": {
+            "providers": [
+                "Mahim\\Bondstein\\MahimBondsteinServiceProvider"
+            ],
+            "aliases": {}
+        } 
+    },
+    "autoload-dev": {},
+    "minimum-stability": "dev"
+}
